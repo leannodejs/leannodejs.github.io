@@ -103,7 +103,7 @@ var base = location.protocol + '//' + location.host + '/';
 MixJS.config({
     baseURL:base + 'js/'
 });
-MixJS.use('event/broadcast', function($){
+MixJS.use('./event/broadcast', function($){
     $.loadJS('./js/nodeppt.js',function(){
         Slide.init({
             containerID: 'container',
