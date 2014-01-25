@@ -31,7 +31,7 @@ transition: cards
 
 [slide]
 
-## CommandJS 规范
+## CommonJS 规范
 
 * Packages  {:&.build}
 * Modules
