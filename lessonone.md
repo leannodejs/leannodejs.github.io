@@ -86,20 +86,38 @@ transition: cards
 
 ## Express  Express 简介
 
+* 目前最广泛使用的Web 开发框架
+
+
 [slide]
 
 ## Express 启动过程
+
+
 
 [slide]
 
 ## Express 路由规则
 
+* req.params <- 获取路径参数
+* req.query <- 获取查询语句
+* req.body <- POST body值
+
 [slide]
 
 ## 编写第一个中间件
 
+```js
+function(req, res, next) {
+
+}
+```
+
 [slide]
 
+# 部署Node.js项目
+
+[slide]
 # 使用Mocha进行单元测试
 
 * 用上单测不侧漏 {:&.build}
@@ -107,5 +125,8 @@ transition: cards
 [slide]
 
 ## 用上单测不侧漏
+
+* BDD
+* TDD
 
 [slide]
