@@ -77,31 +77,56 @@ transition: cards
 
 # 编写第一个Node.js WEB 程序
 
-*  Express 简介 {:&.build}
-*  Express 启动过程
-*  Express 路由规则
+*  学习基本NPM命令 {:&.build}
+*  Express 简介
+*  Express restful
+*  Express 中间件系统
 *  编写第一个中间件
 
-[slide]
-
-## Express  Express 简介
-
-* 目前最广泛使用的Web 开发框架
-
 
 [slide]
 
-## Express 启动过程
+## 学习NPM命令
 
+* npm install pkgs --save {:&.build}
+* npm list
+* npm info
 
 
 [slide]
 
-## Express 路由规则
+## Express 简介
 
-* req.params <- 获取路径参数
+* 目前最广泛使用的Web 开发容器 {:&.build}
+* 使用简单
+* 小而美
+
+[slide]
+
+# Let's Express Hello World! {:&.flexbox.vleft}
+
+[slide]
+
+## Express restful
+
+* req.params <- 获取路径参数 {:&.build}
 * req.query <- 获取查询语句
 * req.body <- POST body值
+
+[slide]
+
+# Express 中间件系统 {:&.flexbox.vleft}
+
+
+[slide]
+
+## 常用Express 中间件
+
+* cookie & session {:&.build}
+* static
+* render
+* methodOverrider
+
 
 [slide]
 
