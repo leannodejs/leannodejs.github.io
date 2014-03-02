@@ -1,6 +1,6 @@
 <!--
     Powered By nodePPT
-    version: 0.6.3
+    version: 0.6.4
     site: https://github.com/ksky521/nodePPT
 -->
 <!doctype html>
@@ -178,7 +178,7 @@
     </slide>
     <slide class="slide logoslide dark nobackground">
         <article class="flexbox vcenter">
-          <h2 style="color: white;">Powered By nodePPT v0.6.3</h2>
+          <h2 style="color: white;">Powered By nodePPT v0.6.4</h2>
         </article>
       </slide>
     <div class="slideTip" id="tip"></div>
@@ -200,23 +200,16 @@ MixJS.use('event/broadcast', function($){
             buildClass: '.build',
             progressID: 'progress',
             transition: 'cards',
-            tipID: 'tip',
             width: 1100,
             dir: '/js/',
-            // control:{
-            //     type: 'socket',
-            //     args:{
-            //         isControl: location.hash.slice(1,8) === 'control',
-            //         host: base,
-            //         //摇一摇
-            //         shake: true
-            //     }
-            // }
+            
             //打开下面的注释就开启postMessage方式
             //访问网址127.0.0.1:8080/ppt/demo#client
             control:{
                 type: 'postMessage'
-            }
+            },
+            
+            tipID: 'tip'
         });
     }).loadJS('/js/highlight/highlight.pack.js',function(){
 
